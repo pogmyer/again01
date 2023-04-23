@@ -3,7 +3,7 @@
   color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
-  display: inline-block;
+  display: inline-block; /* because you are giving it padding, set this to inline-block */
 
   &--orange {
     background-color: $mainOrange;
